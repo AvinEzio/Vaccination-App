@@ -1,27 +1,46 @@
 [
     {
         "name": "Alex",
+        "password": "1234",
         "phone number": "01245675",
-        "vaccination": "Yes"
+        "occupation": "Biologist",
+        "vaccination": "Yes",
+        "Covid-19 status": "Normal",
+        "vaccine status": "Completed",
+        "vaccine appointment date,": "1st Dose: 01/06/2021\n2nd Dose: 15/06/2021",
+        "vaccine appointment location,": "MMU Cyberjaya"
     },
     {
         "name": "John",
+        "password": "4567",
         "phone number": "0123456765",
-        "vaccination": "No"
+        "occupation": "Graphic Designer",
+        "vaccination": "No",
+        "Covid-19 status": "Under-Quarantine",
+        "vaccine status": "Not Assigned",
+        "vaccine appointment date,": "None",
+        "vaccine appointment location,": "None"
     },
     {
         "name": "Mike",
+        "password": "4321",
         "phone number": "01234445332",
-        "vaccination": "Yes"
+        "occupation": "Lawyer",
+        "vaccination": "Yes",
+        "Covid-19 status": "Under-Quarantine",
+        "vaccine status": "1st Dose",
+        "vaccine appointment date,": "1st Dose: 23/07/2021\n2nd Dose: 13/08/2021",
+        "vaccine appointment location,": "MMU Cyberjaya"
     },
     {
         "name": "Marcus",
+        "password": "7654",
         "phone number": "0125673458",
-        "vaccination": "No"
-    },
-    {
-        "name": "Avin",
-        "phone number": "0125839577",
-        "vaccination": "Yes"
+        "occupation": "Programmer",
+        "vaccination": "No",
+        "Covid-19 status": "Normal",
+        "vaccine status": "Assigned",
+        "vaccine appointment date,": "1st Dose: 15/09/2021\n2nd Dose: 29/09/2021",
+        "vaccine appointment location,": "MMU Cyberjaya"
     }
 ]
