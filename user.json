@@ -46,8 +46,30 @@
         "vacc_apt_date1": "15/09/2021",
         "vacc_apt_date2": "29/09/2021",
         "vacc_apt_location": "MMU Cyberjaya"
+    },
+    {
+        "name": "Avin",
+        "password": "789",
+        "phone_number": "0125839577",
+        "occupation": "Artist",
+        "vaccination": "2Dose",
+        "covid_status": "Negative",
+        "vaccine_status": "Assigned",
+        "vacc_apt_date1": "",
+        "vacc_apt_date2": "",
+        "vacc_apt_location": ""
+    },
+    {
+        "name": "avin",
+        "password": "123",
+        "phone_number": "123",
+        "occupation": "artist",
+        "vaccination": "1dose",
+        "covid_status": "negative",
+        "vaccine_status": "assigned",
+        "vacc_apt_date1": "",
+        "vacc_apt_date2": "",
+        "vacc_apt_location": ""
     }
 ]
-
-
 
