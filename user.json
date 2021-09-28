@@ -7,8 +7,8 @@
         "vaccination": "Yes",
         "Covid-19 status": "Normal",
         "vaccine status": "Completed",
-        "vaccine appointment date,": "1st Dose: 01/06/2021\n2nd Dose: 15/06/2021",
-        "vaccine appointment location,": "MMU Cyberjaya"
+        "vaccine appointment date": "1st Dose: 01/06/2021 | 2nd Dose: 15/06/2021",
+        "vaccine appointment location": "MMU Cyberjaya"
     },
     {
         "name": "John",
@@ -18,8 +18,8 @@
         "vaccination": "No",
         "Covid-19 status": "Under-Quarantine",
         "vaccine status": "Not Assigned",
-        "vaccine appointment date,": "None",
-        "vaccine appointment location,": "None"
+        "vaccine appointment date": "1st Dose: None | 2nd Dose: None",
+        "vaccine appointment location": "None"
     },
     {
         "name": "Mike",
@@ -29,8 +29,8 @@
         "vaccination": "Yes",
         "Covid-19 status": "Under-Quarantine",
         "vaccine status": "1st Dose",
-        "vaccine appointment date,": "1st Dose: 23/07/2021\n2nd Dose: 13/08/2021",
-        "vaccine appointment location,": "MMU Cyberjaya"
+        "vaccine appointment date": "1st Dose: 23/07/2021 | 2nd Dose: 13/08/2021",
+        "vaccine appointment location": "MMU Cyberjaya"
     },
     {
         "name": "Marcus",
@@ -40,7 +40,10 @@
         "vaccination": "No",
         "Covid-19 status": "Normal",
         "vaccine status": "Assigned",
-        "vaccine appointment date,": "1st Dose: 15/09/2021\n2nd Dose: 29/09/2021",
-        "vaccine appointment location,": "MMU Cyberjaya"
+        "vaccine appointment date": "1st Dose: 15/09/2021 | 2nd Dose: 29/09/2021",
+        "vaccine appointment location": "MMU Cyberjaya"
     }
 ]
+
+
+
