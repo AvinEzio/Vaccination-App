@@ -10,13 +10,23 @@ def options():
 def view_user_info():
     with open(filename, "r") as info:
         users = json.load(info)
-        for entry in users:
-            name = entry["name"]
-            phone_number = entry['phone number']
-            vaccine = entry["vaccination"]
+        for access in users:
+            name = access["name"]
+            phone_number = access['phone number']
+            job = access["occupation"]
+            vaccine = access["vaccination"]
+            covid = access["Covid-19 status"]
+            vaccine_status = access["vaccine status"]
+            vaccine_date = access["vaccine appointment date"]
+            vaccine_location = access["vaccine appointment location"]
             print(f'Name         : {name}')
             print(f'Phone Number : {phone_number}')
+            print(f'Occupation   : {job}')
             print(f'Vaccination  : {vaccine}')
+            print(f'Covid-19 status : {covid}')
+            print(f'Vaccine Status  : {vaccine_status}')
+            print(f'Vaccination Appointment Date: {vaccine_date}')
+            print(f'Vaccination Appointment Location: {vaccine_location}')
             print('\n\n')
 
 def update_data():
@@ -25,6 +35,7 @@ def update_data():
         users = json.load(info)
     user_data["name"] = input("Name: ")
     user_data["phone number"] = input("Phone Number: ")
+    user_data["occupation"] = input("Occupation: ")
     user_data["vaccination"] = input("Vaccination: ")
     users.append(user_data)
     with open(filename,"w") as info:
@@ -41,5 +52,7 @@ while True:
         break
     else:
         print("Please Select A Number.")
+
+
 
 
