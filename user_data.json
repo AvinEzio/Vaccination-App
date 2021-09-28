@@ -1,8 +1,27 @@
 [
-{"user": "Alex","phone number": "012456756","vaccination":"Yes"},
-{"user": "John","pnone number": "0123456765","vaccination":"No"},
-{"user":"Mike","phone number": "01234445332","vaccination":"Yes"},
-{"user":"Marcus","phone number":"0125673458","vaccination":"No"}
+    {
+        "name": "Alex",
+        "phone number": "01245675",
+        "vaccination": "Yes"
+    },
+    {
+        "name": "John",
+        "phone number": "0123456765",
+        "vaccination": "No"
+    },
+    {
+        "name": "Mike",
+        "phone number": "01234445332",
+        "vaccination": "Yes"
+    },
+    {
+        "name": "Marcus",
+        "phone number": "0125673458",
+        "vaccination": "No"
+    },
+    {
+        "name": "Avin",
+        "phone number": "0125839577",
+        "vaccination": "Yes"
+    }
 ]
-
-
