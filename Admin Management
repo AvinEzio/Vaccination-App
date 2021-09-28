@@ -1,0 +1,45 @@
+import json 
+filename = "user.json"
+
+def options():
+    print("Admin Data Management System")
+    print("(1) View User Info")
+    print("(2) Update User Info")
+    print("(3) Quit")
+
+def view_user_info():
+    with open(filename, "r") as info:
+        users = json.load(info)
+        for entry in users:
+            name = entry["name"]
+            phone_number = entry['phone number']
+            vaccine = entry["vaccination"]
+            print(f'Name         : {name}')
+            print(f'Phone Number : {phone_number}')
+            print(f'Vaccination  : {vaccine}')
+            print('\n\n')
+
+def update_data():
+    user_data = {}
+    with open (filename,'r') as info:
+        users = json.load(info)
+    user_data["name"] = input("Name: ")
+    user_data["phone number"] = input("Phone Number: ")
+    user_data["vaccination"] = input("Vaccination: ")
+    users.append(user_data)
+    with open(filename,"w") as info:
+        json.dump(users, info, indent = 4)
+
+while True:
+    options()
+    option  = input("Enter A Number: ")
+    if option == "1":
+        view_user_info()
+    elif option == "2":
+        update_data()
+    elif option == "3":
+        break
+    else:
+        print("Please Select A Number.")
+
+
