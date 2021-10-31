@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Alex",
+        "password": "1234",
+        "phone_number": "01245675",
+        "occupation": "Biologist",
+        "vaccination": "2 Dose",
+        "covid_status": "1",
+        "vaccine_status": "Assigned",
+        "vacc_apt_date1": "01/06/2021",
+        "vacc_apt_date2": "15/06/2021",
+        "vacc_apt_location": "MMU Cyberjaya"
+    },
+    {
+        "name": "John",
+        "password": "4567",
+        "phone_number": "0123456765",
+        "occupation": "Graphic Designer",
+        "vaccination": "None",
+        "covid_status": "111",
+        "vaccine_status": "Not Assigned",
+        "vacc_apt_date1": "None",
+        "vacc_apt_date2": "None",
+        "vacc_apt_location": "None"
+    },
+    {
+        "name": "Mike",
+        "password": "4321",
+        "phone_number": "01234445332",
+        "occupation": "Lawyer",
+        "vaccination": "1 Dose",
+        "covid_status": "",
+        "vaccine_status": "Assigned",
+        "vacc_apt_date1": "23/07/2021",
+        "vacc_apt_date2": "13/08/2021",
+        "vacc_apt_location": "MMU Cyberjaya"
+    },
+    {
+        "name": "Marcus",
+        "password": "something new",
+        "phone_number": "0125673458",
+        "occupation": "Programmer",
+        "vaccination": "None",
+        "covid_status": "1111",
+        "vaccine_status": "Assigned",
+        "vacc_apt_date1": "15/09/2021",
+        "vacc_apt_date2": "29/09/2021",
+        "vacc_apt_location": "MMU Cyberjaya"
+    }
+]
