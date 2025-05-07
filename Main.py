@@ -1,3 +1,20 @@
+# *********************************************************
+# Program: Main.py
+# Course: PSP0101 PROBLEM SOLVING AND PROGRAM DESIGN
+# Class: TT0?
+# Trimester: 2110
+# Year: 2021/22 Trimester 1
+# Member_1: ID | NAME | EMAIL | PHONES
+# Member_2: ID | NAME | EMAIL | PHONES
+# Member_3: ID | NAME | EMAIL | PHONES
+# Member_4: ID | NAME | EMAIL | PHONES
+# *********************************************************
+# Task Distribution
+# Member_1:
+# Member_2:
+# Member_3:
+# Member_4:
+# *********************************************************
 import json
 from Options import admin_options, main_options, med_history_options, update_user_options
 from UserData import UserData, admin_update, sort_user_risk, sort_user_rsvp, sort_user_status, view_users
